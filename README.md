@@ -1,5 +1,9 @@
 # Sheaves in a nutshell
 
+<figure>
+  <img src="assets/images/sheaves.png" alt="">
+</figure>
+
 ##   About
 
 Do not be missleading by the title, this work is a reproduction, using [typst](https://typst.app/) of a series of articles written by   Bartosz Milewski on his blog, [Bartosz Milewski's Programming Cafe](https://bartoszmilewski.com/about/).
