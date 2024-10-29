@@ -1,7 +1,7 @@
 watch:
   typst watch main.typ main.pdf
 
-clean:
+compile:
   typst compile main.typ main.pdf
 
 clean:
