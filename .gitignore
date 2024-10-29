@@ -2,3 +2,5 @@
 .pijul
 __trash__
 .vscode
+**/*.pdf
+*.pdf
