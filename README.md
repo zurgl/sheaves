@@ -1,7 +1,7 @@
 # Sheaves in a nutshell
 
 <figure>
-  <img src="assets/images/sheaves.png" alt="">
+  <img src="book/cover.png" alt="">
 </figure>
 
 ## About
