@@ -6,14 +6,14 @@
 
 #v(4pt)
 
-When talking about _topology_, people draw cups with handles turning donuts. When I think of _topology_, I see nutritious food. In mathematics, _topology_ is defined as a family of _subsets_ of some _space_. We call theses _subsets_ _open_. _Open_ sets are like meaty, skinless fruits.
+When talking about _topology_, people draw cups with handles turning into donuts. When I think of _topology_, I see nutritious food. In mathematics, _topology_ is defined as a family of _subsets_ of some _space_ $X$. We call these _subsets_ _open_. _Open_ sets are like meaty, skinless fruits.
 
 #figure(
   image("chap10.png", width: 50%),
   caption: [Skinless fruits, are open set]
 )<skinless>
 
-For instance, in standard _topology_, the inside of a ball in 3-d is considered meaty. Contrast this with an empty _sphere_, a _curve_, or a point-these are skinny when embedded in 3-d-they have no nutritional value.
+For instance, in standard _topology_, the inside of a ball in _3-d_ is considered meaty. Contrast this with an empty _sphere_, a _curve_, or a point-these are skinny when embedded in _3-d_ - they have no nutritional value.
 
 In one dimension (on a line), the inside of a _segment_ is meaty, but a _segment_ with endpoints is not _open_, because it has a rind (the endpoints).
 
@@ -34,9 +34,13 @@ There are some extreme topologies, like the discrete topology in which all subse
 
 Consider a function from one topological space $X$ to another topological space $Y$. Intuitively, a function is continuous if it doesn't make sudden jumps. So naively you might think that a continuous function maps any open set to a point which, in most topologies, is not open.
 
+#v(1pt)
+
 #figure(
-  image("chap11.png", width: 50%),
+  image("fig.png", width: 65%),
 )
+
+#v(1pt)
 
 In fact any time a function stalls, or makes a turnaround (like the function $y= x^2$ at $x=0$) you get a skinny point in its image.
 
@@ -49,7 +53,7 @@ First of all, a function cannot stall or turn around in the $x$ direction, since
 Secondly, if a function makes a jump at some point $x$, it's possible to surround $f(x)$ with a samll open set whose counter-image contains $x$ as its boundary.
 
 #figure(
-  image("chap10.png", width: 50%),
+  image("chap13.png", width: 50%),
 )
 
 It's also possible to define a _continous function_ as a pair of _functions_. One _function_ $f$ is the usual mapping of _points_ from $X$ to $Y$. The other _function_ $g$ maps _open sets_ in $Y$ to _open sets_ in $X$. The pair $(f, g)$ defines a _continuous function_ if for all _points_ $x in X$ and _open sets_ $O$ in $Y$ we have the following equivalence:
