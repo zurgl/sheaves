@@ -7,7 +7,7 @@
   align: center+horizon,
   stroke: none,
   text(size: 32pt, weight: "bold")[Sheaves in a nutshell],
-  image("cover.png", width: 150%),
+  image("static/cover.png", width: 150%),
 )
 
 #pagebreak()

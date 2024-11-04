@@ -1,13 +1,13 @@
-#import "book/layout.typ"
+#import "src/layout.typ"
 
-#include "book/cover.typ"
+#include "src/cover.typ"
 #pagebreak()
 
-#include "book/chap01/content.typ"
+#include "src/chapitres/ch01/content.typ"
 #pagebreak()
 
-#include "book/chap02/content.typ"
+#include "src/chapitres/ch02/content.typ"
 #pagebreak()
 
-#include "book/chap03/content.typ"
+#include "src/chapitres/ch03/content.typ"
 #pagebreak()

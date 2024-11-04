@@ -9,7 +9,7 @@
 When talking about _topology_, people draw cups with handles turning into donuts. When I think of _topology_, I see nutritious food. In mathematics, _topology_ is defined as a family of _subsets_ of some _space_ $X$. We call these _subsets_ _open_. _Open_ sets are like meaty, skinless fruits.
 
 #figure(
-  image("chap10.png", width: 50%),
+  image("../../static/fig100.png", width: 50%),
   caption: [Skinless fruits, are open set]
 )<skinless>
 
@@ -37,7 +37,7 @@ Consider a function from one topological space $X$ to another topological space 
 #v(1pt)
 
 #figure(
-  image("fig.png", width: 65%),
+  image("../../arts/fig11.png", width: 65%),
 )
 
 #v(1pt)
@@ -45,7 +45,7 @@ Consider a function from one topological space $X$ to another topological space 
 In fact any time a function stalls, or makes a turnaround (like the function $y= x^2$ at $x=0$) you get a skinny point in its image.
 
 #figure(
-  image("chap12.png", width: 50%),
+  image("../../arts/fig12.png", width: 50%),
 )
 
 The correct definition foes in the opposite direction: a function is continous if and only if the pre-image of every open set is open.
@@ -53,7 +53,7 @@ First of all, a function cannot stall or turn around in the $x$ direction, since
 Secondly, if a function makes a jump at some point $x$, it's possible to surround $f(x)$ with a samll open set whose counter-image contains $x$ as its boundary.
 
 #figure(
-  image("chap13.png", width: 50%),
+  image("../../arts/fig13.png", width: 50%),
 )
 
 It's also possible to define a _continous function_ as a pair of _functions_. One _function_ $f$ is the usual mapping of _points_ from $X$ to $Y$. The other _function_ $g$ maps _open sets_ in $Y$ to _open sets_ in $X$. The pair $(f, g)$ defines a _continuous function_ if for all _points_ $x in X$ and _open sets_ $O$ in $Y$ we have the following equivalence:
