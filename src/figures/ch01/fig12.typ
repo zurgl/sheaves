@@ -1,6 +1,6 @@
 #import "@preview/cetz:0.3.1"
 
-#import "../utils.typ": dft_ox, dft_oy, axis, dft_style
+#import "../utils.typ": xy_axis, dft_style
 
 #set page(width: auto, height: auto, margin: .5cm)
 
@@ -37,8 +37,7 @@
 
   dft_style
 
-  axis(..ox, ..dft_ox)
-  axis(..oy, ..dft_oy)
+  xy_axis(ox, oy)
 
   // Courbe
   intersections(

@@ -20,12 +20,10 @@
 )
 
 #let axis(
-  min: none, 
-  max: none, 
   name: str, 
   sym: str, 
   anchor: str,
-) = {
+) = (min: (), max: ()) => {
   cetz.draw.line(
     min, 
     max, 
@@ -37,4 +35,9 @@
     text(size: 20pt)[$ #sym $], 
     anchor: anchor
   )
+}
+
+#let xy_axis = (ox, oy) => {
+  axis(..dft_ox)(..ox) 
+  axis(..dft_oy)(..oy)
 }
