@@ -15,6 +15,7 @@ Do not be missleading by the title, this work is a reproduction, using [typst](h
 - [ ] [Sheaves and Topology](https://bartoszmilewski.com/2024/08/18/sheaves-and-topology/)
 - [ ] [Coverages and sites](https://bartoszmilewski.com/2024/10/07/coverages-and-sites/)
 - [ ] [Sheaves as Virtual Objects](https://bartoszmilewski.com/2024/10/24/sheaves-as-virtual-objects/)
+- [ ] [Covering Sieves](https://bartoszmilewski.com/2024/10/31/covering-sieves/)
 
 ## License
 
